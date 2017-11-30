@@ -4,6 +4,18 @@ I just try to upload a new repostory, and try to practice some operation of gith
 
 Such as to uopload a new respostory, to download someting from github, to check the information, to pull and then modify an then push.  
 
+## 让你的PC具备推送的功能，电脑与github远端仓库绑定
+
+git config --global user.name "xiaoxiaohanhanhan" （github账号）
+
+git config --globa user.email "627342660@qq.com" （github邮箱）
+ 
+ssh-keygen -t rsa -b 4096 -C "627342660@qq.com"   
+
+cat ~/.ssh/id_rsa.pub  （私钥，将其写在github setting里，完成绑定）
+
+通过网页，添加你的ssh
+
 ## 如何把一个本地工程上传到github
 
 1. 在你的github账号上，添加你电脑的ｓｓｈ信息,让你的PC具备推送的功能 （如果之前已经将电脑绑定过，则之后不需要再次绑定）
