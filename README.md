@@ -16,6 +16,36 @@ cat ~/.ssh/id_rsa.pub  （私钥，将其写在github setting里，完成绑定�
 
 通过网页，添加你的ssh
 
+## 添加远程仓库的信息
+git remote add origin git@github.com:xiaoxiaohanhanhan/maven_repository.git
+
+## 删除远程仓库的信息
+git remove remove
+
+## 查看远程仓库的信息
+git remote -v
+
+如果是git clone git@github.com:xiaoxiaohanhanhan/gitStuy.git 下来的，自动绑定了远程仓库
+
+root@liuruohan-Inspiron-5447:~/gitStuy# git remote -v
+
+origin  git@github.com:xiaoxiaohanhanhan/gitStuy.git (fetch)
+
+origin  git@github.com:xiaoxiaohanhanhan/gitStuy.git (push)
+
+
+git remote remove origin
+
+git remote add origin git@github.com:xiaoxiaohanhanhan/gitStuy
+
+git push -u origin master
+
+git push
+
+## mahua.jser.me
+
+		格式
+
 ## 如何把一个本地工程上传到github
 
 1. 在你的github账号上，添加你电脑的ｓｓｈ信息,让你的PC具备推送的功能 （如果之前已经将电脑绑定过，则之后不需要再次绑定）
