@@ -34,5 +34,22 @@ Such as to uopload a new respostory, to download someting from github, to check 
 
 之后在githublianxi即可看到对应的提交文件
 
+## 如何在github上已有的工程上接着开发
+1. 在你的github账号上，添加你电脑的ｓｓｈ信息,让你的PC具备推送的功能
+
+		git clone git@github.com:xiaoxiaohanhanhan/githublianxi.git(如果之前已经下载可以跳过此步，但必须保证本地文件与远端同步！)
+		
+		cd githublianxi 
+
+		(打开文件，做你的修改)
+
+		git add .
+
+		git commit -m "在github已有工程上接着开发"
+
+		git push				
+
+
+
 
 
