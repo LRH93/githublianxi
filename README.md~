@@ -10,7 +10,7 @@ Such as to uopload a new respostory, to download someting from github, to check 
 
 2. 在github账号理创建一个新仓库，名字与本地工程文件名字一致 （githublianxi）
 
-3. 将本地工程文件修改后git更新，即提交至本地git仓库
+3. 将本地工程文件修改后，git add . 更新，git commit 即提交至本地git仓库
 
 		cd githublianxi （进入文件夹）
 

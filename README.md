@@ -18,7 +18,7 @@ Such as to uopload a new respostory, to download someting from github, to check 
 
 		git add .
 
-		git commit -m "修改后的第一个版本"
+		git commit -m "本地工程上传至远端仓库"
 
 		（可添加多个对应远程仓库，git remote -v 查看）
 
@@ -33,4 +33,6 @@ Such as to uopload a new respostory, to download someting from github, to check 
 		git push (后面默认用第一次那个)
 
 之后在githublianxi即可看到对应的提交文件
+
+
 
